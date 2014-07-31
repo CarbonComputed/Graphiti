@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7064B7DD1989D22700EB868C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064B7DC1989D22700EB868C /* Foundation.framework */; };
+		7064B7DF1989D22700EB868C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064B7DE1989D22700EB868C /* CoreGraphics.framework */; };
+		7064B7E11989D22700EB868C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064B7E01989D22700EB868C /* UIKit.framework */; };
+		7064B7E31989D22700EB868C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064B7E21989D22700EB868C /* CoreData.framework */; };
+		7064B7E91989D22700EB868C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7064B7E71989D22700EB868C /* InfoPlist.strings */; };
+		7064B7EB1989D22700EB868C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7064B7EA1989D22700EB868C /* main.m */; };
+		7064B7EF1989D22700EB868C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7064B7EE1989D22700EB868C /* AppDelegate.m */; };
+		7064B7F21989D22700EB868C /* Graphiti.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7064B7F01989D22700EB868C /* Graphiti.xcdatamodeld */; };
+		7064B7F41989D22700EB868C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7064B7F31989D22700EB868C /* Images.xcassets */; };
+		7064B7FB1989D22700EB868C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064B7FA1989D22700EB868C /* XCTest.framework */; };
+		7064B7FC1989D22700EB868C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064B7DC1989D22700EB868C /* Foundation.framework */; };
+		7064B7FD1989D22700EB868C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064B7E01989D22700EB868C /* UIKit.framework */; };
+		7064B7FE1989D22700EB868C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064B7E21989D22700EB868C /* CoreData.framework */; };
+		7064B8061989D22700EB868C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7064B8041989D22700EB868C /* InfoPlist.strings */; };
+		7064B8081989D22700EB868C /* GraphitiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7064B8071989D22700EB868C /* GraphitiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7064B7FF1989D22700EB868C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7064B7D11989D22700EB868C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7064B7D81989D22700EB868C;
+			remoteInfo = Graphiti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7064B7D91989D22700EB868C /* Graphiti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graphiti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7064B7DC1989D22700EB868C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7064B7DE1989D22700EB868C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7064B7E01989D22700EB868C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7064B7E21989D22700EB868C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7064B7E61989D22700EB868C /* Graphiti-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Graphiti-Info.plist"; sourceTree = "<group>"; };
+		7064B7E81989D22700EB868C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7064B7EA1989D22700EB868C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7064B7EC1989D22700EB868C /* Graphiti-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Graphiti-Prefix.pch"; sourceTree = "<group>"; };
+		7064B7ED1989D22700EB868C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7064B7EE1989D22700EB868C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7064B7F11989D22700EB868C /* Graphiti.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Graphiti.xcdatamodel; sourceTree = "<group>"; };
+		7064B7F31989D22700EB868C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7064B7F91989D22700EB868C /* GraphitiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphitiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7064B7FA1989D22700EB868C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7064B8031989D22700EB868C /* GraphitiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphitiTests-Info.plist"; sourceTree = "<group>"; };
+		7064B8051989D22700EB868C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7064B8071989D22700EB868C /* GraphitiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphitiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7064B7D61989D22700EB868C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7064B7DF1989D22700EB868C /* CoreGraphics.framework in Frameworks */,
+				7064B7E31989D22700EB868C /* CoreData.framework in Frameworks */,
+				7064B7E11989D22700EB868C /* UIKit.framework in Frameworks */,
+				7064B7DD1989D22700EB868C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7064B7F61989D22700EB868C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7064B7FB1989D22700EB868C /* XCTest.framework in Frameworks */,
+				7064B7FE1989D22700EB868C /* CoreData.framework in Frameworks */,
+				7064B7FD1989D22700EB868C /* UIKit.framework in Frameworks */,
+				7064B7FC1989D22700EB868C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7064B7D01989D22700EB868C = {
+			isa = PBXGroup;
+			children = (
+				7064B7E41989D22700EB868C /* Graphiti */,
+				7064B8011989D22700EB868C /* GraphitiTests */,
+				7064B7DB1989D22700EB868C /* Frameworks */,
+				7064B7DA1989D22700EB868C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7064B7DA1989D22700EB868C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7064B7D91989D22700EB868C /* Graphiti.app */,
+				7064B7F91989D22700EB868C /* GraphitiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7064B7DB1989D22700EB868C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7064B7DC1989D22700EB868C /* Foundation.framework */,
+				7064B7DE1989D22700EB868C /* CoreGraphics.framework */,
+				7064B7E01989D22700EB868C /* UIKit.framework */,
+				7064B7E21989D22700EB868C /* CoreData.framework */,
+				7064B7FA1989D22700EB868C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7064B7E41989D22700EB868C /* Graphiti */ = {
+			isa = PBXGroup;
+			children = (
+				7064B7ED1989D22700EB868C /* AppDelegate.h */,
+				7064B7EE1989D22700EB868C /* AppDelegate.m */,
+				7064B7F31989D22700EB868C /* Images.xcassets */,
+				7064B7F01989D22700EB868C /* Graphiti.xcdatamodeld */,
+				7064B7E51989D22700EB868C /* Supporting Files */,
+			);
+			path = Graphiti;
+			sourceTree = "<group>";
+		};
+		7064B7E51989D22700EB868C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7064B7E61989D22700EB868C /* Graphiti-Info.plist */,
+				7064B7E71989D22700EB868C /* InfoPlist.strings */,
+				7064B7EA1989D22700EB868C /* main.m */,
+				7064B7EC1989D22700EB868C /* Graphiti-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7064B8011989D22700EB868C /* GraphitiTests */ = {
+			isa = PBXGroup;
+			children = (
+				7064B8071989D22700EB868C /* GraphitiTests.m */,
+				7064B8021989D22700EB868C /* Supporting Files */,
+			);
+			path = GraphitiTests;
+			sourceTree = "<group>";
+		};
+		7064B8021989D22700EB868C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7064B8031989D22700EB868C /* GraphitiTests-Info.plist */,
+				7064B8041989D22700EB868C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7064B7D81989D22700EB868C /* Graphiti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7064B80B1989D22700EB868C /* Build configuration list for PBXNativeTarget "Graphiti" */;
+			buildPhases = (
+				7064B7D51989D22700EB868C /* Sources */,
+				7064B7D61989D22700EB868C /* Frameworks */,
+				7064B7D71989D22700EB868C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Graphiti;
+			productName = Graphiti;
+			productReference = 7064B7D91989D22700EB868C /* Graphiti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7064B7F81989D22700EB868C /* GraphitiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7064B80E1989D22700EB868C /* Build configuration list for PBXNativeTarget "GraphitiTests" */;
+			buildPhases = (
+				7064B7F51989D22700EB868C /* Sources */,
+				7064B7F61989D22700EB868C /* Frameworks */,
+				7064B7F71989D22700EB868C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7064B8001989D22700EB868C /* PBXTargetDependency */,
+			);
+			name = GraphitiTests;
+			productName = GraphitiTests;
+			productReference = 7064B7F91989D22700EB868C /* GraphitiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7064B7D11989D22700EB868C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kevin Carbone";
+				TargetAttributes = {
+					7064B7F81989D22700EB868C = {
+						TestTargetID = 7064B7D81989D22700EB868C;
+					};
+				};
+			};
+			buildConfigurationList = 7064B7D41989D22700EB868C /* Build configuration list for PBXProject "Graphiti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7064B7D01989D22700EB868C;
+			productRefGroup = 7064B7DA1989D22700EB868C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7064B7D81989D22700EB868C /* Graphiti */,
+				7064B7F81989D22700EB868C /* GraphitiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7064B7D71989D22700EB868C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7064B7E91989D22700EB868C /* InfoPlist.strings in Resources */,
+				7064B7F41989D22700EB868C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7064B7F71989D22700EB868C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7064B8061989D22700EB868C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7064B7D51989D22700EB868C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7064B7EF1989D22700EB868C /* AppDelegate.m in Sources */,
+				7064B7F21989D22700EB868C /* Graphiti.xcdatamodeld in Sources */,
+				7064B7EB1989D22700EB868C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7064B7F51989D22700EB868C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7064B8081989D22700EB868C /* GraphitiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7064B8001989D22700EB868C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7064B7D81989D22700EB868C /* Graphiti */;
+			targetProxy = 7064B7FF1989D22700EB868C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7064B7E71989D22700EB868C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7064B7E81989D22700EB868C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7064B8041989D22700EB868C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7064B8051989D22700EB868C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7064B8091989D22700EB868C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7064B80A1989D22700EB868C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7064B80C1989D22700EB868C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Graphiti/Graphiti-Prefix.pch";
+				INFOPLIST_FILE = "Graphiti/Graphiti-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7064B80D1989D22700EB868C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Graphiti/Graphiti-Prefix.pch";
+				INFOPLIST_FILE = "Graphiti/Graphiti-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7064B80F1989D22700EB868C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Graphiti.app/Graphiti";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Graphiti/Graphiti-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GraphitiTests/GraphitiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7064B8101989D22700EB868C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Graphiti.app/Graphiti";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Graphiti/Graphiti-Prefix.pch";
+				INFOPLIST_FILE = "GraphitiTests/GraphitiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7064B7D41989D22700EB868C /* Build configuration list for PBXProject "Graphiti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7064B8091989D22700EB868C /* Debug */,
+				7064B80A1989D22700EB868C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7064B80B1989D22700EB868C /* Build configuration list for PBXNativeTarget "Graphiti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7064B80C1989D22700EB868C /* Debug */,
+				7064B80D1989D22700EB868C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7064B80E1989D22700EB868C /* Build configuration list for PBXNativeTarget "GraphitiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7064B80F1989D22700EB868C /* Debug */,
+				7064B8101989D22700EB868C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7064B7F01989D22700EB868C /* Graphiti.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7064B7F11989D22700EB868C /* Graphiti.xcdatamodel */,
+			);
+			currentVersion = 7064B7F11989D22700EB868C /* Graphiti.xcdatamodel */;
+			path = Graphiti.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7064B7D11989D22700EB868C /* Project object */;
+}
