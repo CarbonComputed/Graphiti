@@ -8,6 +8,12 @@
 
 #import "AppDelegate.h"
 
+#import "MainViewController.h"
+#import "MeteorClient.h"
+#import "ObjectiveDDP.h"
+#import <ObjectiveDDP/MeteorClient.h>
+
+
 @implementation AppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -16,12 +22,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    
+    
+
+
+//    MainViewController* mvc = (MainViewController*) [self.window.rootViewController.navigationController.topViewController];;
+//    [mvc pas]
+
+    //self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    //self.window.backgroundColor = [UIColor whiteColor];
+    //[self.window makeKeyAndVisible];
     return YES;
 }
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -43,6 +60,8 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+  //  [self.meteorClient.ddp connectWebSocket];
+
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

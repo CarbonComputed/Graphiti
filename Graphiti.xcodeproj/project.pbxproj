@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		391AB1D51E1C441C90A4A44E /* libPods-Graphiti.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC787D2A605D42DBA4E2D46B /* libPods-Graphiti.a */; };
 		7064B7DD1989D22700EB868C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064B7DC1989D22700EB868C /* Foundation.framework */; };
 		7064B7DF1989D22700EB868C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064B7DE1989D22700EB868C /* CoreGraphics.framework */; };
 		7064B7E11989D22700EB868C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064B7E01989D22700EB868C /* UIKit.framework */; };
@@ -22,6 +23,27 @@
 		7064B7FE1989D22700EB868C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064B7E21989D22700EB868C /* CoreData.framework */; };
 		7064B8061989D22700EB868C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7064B8041989D22700EB868C /* InfoPlist.strings */; };
 		7064B8081989D22700EB868C /* GraphitiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7064B8071989D22700EB868C /* GraphitiTests.m */; };
+		7064B8121989D26200EB868C /* iPhoneStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7064B8111989D26200EB868C /* iPhoneStoryBoard.storyboard */; };
+		708CF5191989E50D0076AA99 /* ARCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 708CF50E1989E50D0076AA99 /* ARCoordinate.m */; };
+		708CF51A1989E50D0076AA99 /* ARGeoCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 708CF5101989E50D0076AA99 /* ARGeoCoordinate.m */; };
+		708CF51B1989E50D0076AA99 /* ARKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 708CF5121989E50D0076AA99 /* ARKit.m */; };
+		708CF51C1989E50D0076AA99 /* AugmentedRealityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708CF5161989E50D0076AA99 /* AugmentedRealityController.m */; };
+		708CF51D1989E50D0076AA99 /* GEOLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 708CF5181989E50D0076AA99 /* GEOLocations.m */; };
+		708CF5201989E5AE0076AA99 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708CF51F1989E5AE0076AA99 /* ARViewController.m */; };
+		70DB61CF198ECB4E003E710A /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DB61CC198ECB4E003E710A /* Node.m */; };
+		70DB61D0198ECB4E003E710A /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DB61CE198ECB4E003E710A /* Sprite.m */; };
+		70DB61D3198ECDE9003E710A /* GraphitiGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DB61D2198ECDE9003E710A /* GraphitiGLViewController.m */; };
+		70DB61D6198F3922003E710A /* CameraScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DB61D5198F3922003E710A /* CameraScene.m */; };
+		70DB61D8198F64F2003E710A /* 547436_10151516812888567_866005295_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70DB61D7198F64F2003E710A /* 547436_10151516812888567_866005295_n.jpg */; };
+		70DB61DA198F661F003E710A /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = 70DB61D9198F661F003E710A /* Player.png */; };
+		70DB61DD198F6FBF003E710A /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DB61DC198F6FBF003E710A /* Camera.m */; };
+		70DED8CE19980BBA003745C6 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DED8CD19980BBA003745C6 /* CoreMotion.framework */; };
+		70DED8D11998ADAD003745C6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DED8D01998ADAD003745C6 /* MainViewController.m */; };
+		70DED8D519992F0E003745C6 /* GLView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70DED8D419992F0E003745C6 /* GLView.xib */; };
+		70DED8D91999C408003745C6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DED8D81999C408003745C6 /* CoreLocation.framework */; };
+		70DED8DC199C240D003745C6 /* DrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DED8DB199C240D003745C6 /* DrawingViewController.m */; };
+		70DED8DF199C27CE003745C6 /* DAScratchPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DED8DE199C27CE003745C6 /* DAScratchPadView.m */; };
+		70E232A819A06D7D00BAD4CD /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E232A719A06D7D00BAD4CD /* Post.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		379B2061FAD543F5930D9BFA /* Pods-Graphiti.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graphiti.xcconfig"; path = "Pods/Pods-Graphiti.xcconfig"; sourceTree = "<group>"; };
 		7064B7D91989D22700EB868C /* Graphiti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graphiti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7064B7DC1989D22700EB868C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7064B7DE1989D22700EB868C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +76,46 @@
 		7064B8031989D22700EB868C /* GraphitiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphitiTests-Info.plist"; sourceTree = "<group>"; };
 		7064B8051989D22700EB868C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7064B8071989D22700EB868C /* GraphitiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphitiTests.m; sourceTree = "<group>"; };
+		7064B8111989D26200EB868C /* iPhoneStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryBoard.storyboard; sourceTree = "<group>"; };
+		708CF50D1989E50D0076AA99 /* ARCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCoordinate.h; sourceTree = "<group>"; };
+		708CF50E1989E50D0076AA99 /* ARCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCoordinate.m; sourceTree = "<group>"; };
+		708CF50F1989E50D0076AA99 /* ARGeoCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGeoCoordinate.h; sourceTree = "<group>"; };
+		708CF5101989E50D0076AA99 /* ARGeoCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGeoCoordinate.m; sourceTree = "<group>"; };
+		708CF5111989E50D0076AA99 /* ARKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARKit.h; sourceTree = "<group>"; };
+		708CF5121989E50D0076AA99 /* ARKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARKit.m; sourceTree = "<group>"; };
+		708CF5131989E50D0076AA99 /* ARLocationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARLocationDelegate.h; sourceTree = "<group>"; };
+		708CF5141989E50D0076AA99 /* ARViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewProtocol.h; sourceTree = "<group>"; };
+		708CF5151989E50D0076AA99 /* AugmentedRealityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AugmentedRealityController.h; sourceTree = "<group>"; };
+		708CF5161989E50D0076AA99 /* AugmentedRealityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AugmentedRealityController.m; sourceTree = "<group>"; };
+		708CF5171989E50D0076AA99 /* GEOLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEOLocations.h; sourceTree = "<group>"; };
+		708CF5181989E50D0076AA99 /* GEOLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEOLocations.m; sourceTree = "<group>"; };
+		708CF51E1989E5AE0076AA99 /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		708CF51F1989E5AE0076AA99 /* ARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		70DB61CB198ECB4E003E710A /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		70DB61CC198ECB4E003E710A /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		70DB61CD198ECB4E003E710A /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		70DB61CE198ECB4E003E710A /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		70DB61D1198ECDE9003E710A /* GraphitiGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphitiGLViewController.h; sourceTree = "<group>"; };
+		70DB61D2198ECDE9003E710A /* GraphitiGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphitiGLViewController.m; sourceTree = "<group>"; };
+		70DB61D4198F3922003E710A /* CameraScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraScene.h; sourceTree = "<group>"; };
+		70DB61D5198F3922003E710A /* CameraScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraScene.m; sourceTree = "<group>"; };
+		70DB61D7198F64F2003E710A /* 547436_10151516812888567_866005295_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 547436_10151516812888567_866005295_n.jpg; sourceTree = "<group>"; };
+		70DB61D9198F661F003E710A /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player.png; sourceTree = "<group>"; };
+		70DB61DB198F6FBF003E710A /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		70DB61DC198F6FBF003E710A /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		70DED8CD19980BBA003745C6 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		70DED8CF1998ADAD003745C6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		70DED8D01998ADAD003745C6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		70DED8D419992F0E003745C6 /* GLView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLView.xib; sourceTree = "<group>"; };
+		70DED8D81999C408003745C6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		70DED8DA199C240D003745C6 /* DrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingViewController.h; sourceTree = "<group>"; };
+		70DED8DB199C240D003745C6 /* DrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingViewController.m; sourceTree = "<group>"; };
+		70DED8DD199C27CE003745C6 /* DAScratchPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAScratchPadView.h; sourceTree = "<group>"; };
+		70DED8DE199C27CE003745C6 /* DAScratchPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAScratchPadView.m; sourceTree = "<group>"; };
+		70E232A519A0501400BAD4CD /* GraphitiProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphitiProtocol.h; sourceTree = "<group>"; };
+		70E232A619A06D7D00BAD4CD /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		70E232A719A06D7D00BAD4CD /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		DC787D2A605D42DBA4E2D46B /* libPods-Graphiti.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Graphiti.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +123,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70DED8D91999C408003745C6 /* CoreLocation.framework in Frameworks */,
+				70DED8CE19980BBA003745C6 /* CoreMotion.framework in Frameworks */,
 				7064B7DF1989D22700EB868C /* CoreGraphics.framework in Frameworks */,
 				7064B7E31989D22700EB868C /* CoreData.framework in Frameworks */,
 				7064B7E11989D22700EB868C /* UIKit.framework in Frameworks */,
 				7064B7DD1989D22700EB868C /* Foundation.framework in Frameworks */,
+				391AB1D51E1C441C90A4A44E /* libPods-Graphiti.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +154,7 @@
 				7064B8011989D22700EB868C /* GraphitiTests */,
 				7064B7DB1989D22700EB868C /* Frameworks */,
 				7064B7DA1989D22700EB868C /* Products */,
+				379B2061FAD543F5930D9BFA /* Pods-Graphiti.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +170,14 @@
 		7064B7DB1989D22700EB868C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70DED8D81999C408003745C6 /* CoreLocation.framework */,
+				70DED8CD19980BBA003745C6 /* CoreMotion.framework */,
 				7064B7DC1989D22700EB868C /* Foundation.framework */,
 				7064B7DE1989D22700EB868C /* CoreGraphics.framework */,
 				7064B7E01989D22700EB868C /* UIKit.framework */,
 				7064B7E21989D22700EB868C /* CoreData.framework */,
 				7064B7FA1989D22700EB868C /* XCTest.framework */,
+				DC787D2A605D42DBA4E2D46B /* libPods-Graphiti.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,11 +185,35 @@
 		7064B7E41989D22700EB868C /* Graphiti */ = {
 			isa = PBXGroup;
 			children = (
+				70DED8DD199C27CE003745C6 /* DAScratchPadView.h */,
+				70DED8DE199C27CE003745C6 /* DAScratchPadView.m */,
+				70DB61CB198ECB4E003E710A /* Sprite.h */,
+				70DB61CC198ECB4E003E710A /* Node.m */,
+				70DB61CD198ECB4E003E710A /* Node.h */,
+				70DB61CE198ECB4E003E710A /* Sprite.m */,
+				708CF50C1989E50D0076AA99 /* ARKit */,
 				7064B7ED1989D22700EB868C /* AppDelegate.h */,
 				7064B7EE1989D22700EB868C /* AppDelegate.m */,
 				7064B7F31989D22700EB868C /* Images.xcassets */,
 				7064B7F01989D22700EB868C /* Graphiti.xcdatamodeld */,
 				7064B7E51989D22700EB868C /* Supporting Files */,
+				7064B8111989D26200EB868C /* iPhoneStoryBoard.storyboard */,
+				70DED8D419992F0E003745C6 /* GLView.xib */,
+				708CF51E1989E5AE0076AA99 /* ARViewController.h */,
+				708CF51F1989E5AE0076AA99 /* ARViewController.m */,
+				70DB61D1198ECDE9003E710A /* GraphitiGLViewController.h */,
+				70DB61D2198ECDE9003E710A /* GraphitiGLViewController.m */,
+				70DB61D4198F3922003E710A /* CameraScene.h */,
+				70DB61D5198F3922003E710A /* CameraScene.m */,
+				70DB61DB198F6FBF003E710A /* Camera.h */,
+				70DB61DC198F6FBF003E710A /* Camera.m */,
+				70DED8CF1998ADAD003745C6 /* MainViewController.h */,
+				70DED8D01998ADAD003745C6 /* MainViewController.m */,
+				70DED8DA199C240D003745C6 /* DrawingViewController.h */,
+				70DED8DB199C240D003745C6 /* DrawingViewController.m */,
+				70E232A519A0501400BAD4CD /* GraphitiProtocol.h */,
+				70E232A619A06D7D00BAD4CD /* Post.h */,
+				70E232A719A06D7D00BAD4CD /* Post.m */,
 			);
 			path = Graphiti;
 			sourceTree = "<group>";
@@ -127,6 +221,8 @@
 		7064B7E51989D22700EB868C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				70DB61D9198F661F003E710A /* Player.png */,
+				70DB61D7198F64F2003E710A /* 547436_10151516812888567_866005295_n.jpg */,
 				7064B7E61989D22700EB868C /* Graphiti-Info.plist */,
 				7064B7E71989D22700EB868C /* InfoPlist.strings */,
 				7064B7EA1989D22700EB868C /* main.m */,
@@ -153,6 +249,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		708CF50C1989E50D0076AA99 /* ARKit */ = {
+			isa = PBXGroup;
+			children = (
+				708CF50D1989E50D0076AA99 /* ARCoordinate.h */,
+				708CF50E1989E50D0076AA99 /* ARCoordinate.m */,
+				708CF50F1989E50D0076AA99 /* ARGeoCoordinate.h */,
+				708CF5101989E50D0076AA99 /* ARGeoCoordinate.m */,
+				708CF5111989E50D0076AA99 /* ARKit.h */,
+				708CF5121989E50D0076AA99 /* ARKit.m */,
+				708CF5131989E50D0076AA99 /* ARLocationDelegate.h */,
+				708CF5141989E50D0076AA99 /* ARViewProtocol.h */,
+				708CF5151989E50D0076AA99 /* AugmentedRealityController.h */,
+				708CF5161989E50D0076AA99 /* AugmentedRealityController.m */,
+				708CF5171989E50D0076AA99 /* GEOLocations.h */,
+				708CF5181989E50D0076AA99 /* GEOLocations.m */,
+			);
+			path = ARKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7064B80B1989D22700EB868C /* Build configuration list for PBXNativeTarget "Graphiti" */;
 			buildPhases = (
+				B27CD4CD175F4E6DA42B99DF /* Check Pods Manifest.lock */,
 				7064B7D51989D22700EB868C /* Sources */,
 				7064B7D61989D22700EB868C /* Frameworks */,
 				7064B7D71989D22700EB868C /* Resources */,
+				F9412117453245EC805A1B04 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,7 +346,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7064B7E91989D22700EB868C /* InfoPlist.strings in Resources */,
+				70DB61D8198F64F2003E710A /* 547436_10151516812888567_866005295_n.jpg in Resources */,
 				7064B7F41989D22700EB868C /* Images.xcassets in Resources */,
+				70DED8D519992F0E003745C6 /* GLView.xib in Resources */,
+				7064B8121989D26200EB868C /* iPhoneStoryBoard.storyboard in Resources */,
+				70DB61DA198F661F003E710A /* Player.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,14 +364,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B27CD4CD175F4E6DA42B99DF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9412117453245EC805A1B04 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Graphiti-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7064B7D51989D22700EB868C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70DB61DD198F6FBF003E710A /* Camera.m in Sources */,
+				70DB61D0198ECB4E003E710A /* Sprite.m in Sources */,
+				708CF51D1989E50D0076AA99 /* GEOLocations.m in Sources */,
+				708CF5191989E50D0076AA99 /* ARCoordinate.m in Sources */,
 				7064B7EF1989D22700EB868C /* AppDelegate.m in Sources */,
+				708CF51C1989E50D0076AA99 /* AugmentedRealityController.m in Sources */,
+				708CF5201989E5AE0076AA99 /* ARViewController.m in Sources */,
+				70DB61CF198ECB4E003E710A /* Node.m in Sources */,
+				70DB61D3198ECDE9003E710A /* GraphitiGLViewController.m in Sources */,
 				7064B7F21989D22700EB868C /* Graphiti.xcdatamodeld in Sources */,
+				70DED8DF199C27CE003745C6 /* DAScratchPadView.m in Sources */,
+				708CF51B1989E50D0076AA99 /* ARKit.m in Sources */,
 				7064B7EB1989D22700EB868C /* main.m in Sources */,
+				70E232A819A06D7D00BAD4CD /* Post.m in Sources */,
+				708CF51A1989E50D0076AA99 /* ARGeoCoordinate.m in Sources */,
+				70DED8DC199C240D003745C6 /* DrawingViewController.m in Sources */,
+				70DED8D11998ADAD003745C6 /* MainViewController.m in Sources */,
+				70DB61D6198F3922003E710A /* CameraScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,12 +535,14 @@
 		};
 		7064B80C1989D22700EB868C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379B2061FAD543F5930D9BFA /* Pods-Graphiti.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Graphiti/Graphiti-Prefix.pch";
 				INFOPLIST_FILE = "Graphiti/Graphiti-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -379,12 +550,14 @@
 		};
 		7064B80D1989D22700EB868C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379B2061FAD543F5930D9BFA /* Pods-Graphiti.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Graphiti/Graphiti-Prefix.pch";
 				INFOPLIST_FILE = "Graphiti/Graphiti-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -449,6 +622,7 @@
 				7064B80D1989D22700EB868C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7064B80E1989D22700EB868C /* Build configuration list for PBXNativeTarget "GraphitiTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +631,7 @@
 				7064B8101989D22700EB868C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
